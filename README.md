@@ -8,7 +8,7 @@ references to the `RSPRESS_THEME` variable outside these docs.
 This repo was created via `bun create rspress@latest` with minimum defaults,
 with the `builderConfig` from the above docs simply pasted into `rspress.config.ts`:
 
-```
+```typescript
 import * as path from "node:path";
 import { defineConfig } from "@rspress/core";
 
